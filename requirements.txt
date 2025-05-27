@@ -1,4 +1,5 @@
-opencv-python
+opencv-python-headless>=4.5.5  # Use headless version for cloud deployments
 numpy
 Pillow
 scikit-image
+streamlit
