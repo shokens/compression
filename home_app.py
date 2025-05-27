@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image
 from skimage import restoration, exposure, morphology, feature, img_as_ubyte
-from sklearn.cluster import KMeans
+# from sklearn.cluster import KMeans
 import io
 import fitz  # PyMuPDF
 import matplotlib.pyplot as plt
