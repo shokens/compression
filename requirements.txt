@@ -1,37 +1,9 @@
-opencv-python-headless>=4.5.5  # Use headless version for cloud deployments
-numpy
-Pillow
-scikit-image
-streamlit
-# Core packages
 streamlit>=1.22.0
 numpy>=1.21.0
-streamlit
-opencv-python-headless>=4.5.5  # For cv2
-numpy
-Pillow
-scikit-image
-scikit-learn  # For sklearn.cluster.KMeans
-Pillow>=9.0.0  # For PIL (Image)
-
-# OpenCV (use headless for Streamlit Cloud)
-opencv-python-headless>=4.5.5  # Replaces cv2
-
-# scikit-image (for skimage imports)
+Pillow>=9.0.0
+opencv-python-headless>=4.5.5
 scikit-image>=0.19.0
-
-# scikit-learn (for KMeans)
-scikit-learn>=1.0.0
-
-# PyMuPDF (for fitz)
-pymupdf>=1.20.0
-
-# matplotlib
+scikit-learn>=1.0.0  # This provides 'sklearn'
+pymupdf>=1.20.0  # For 'fitz'
 matplotlib>=3.5.0
-
-# pytesseract (OCR)
 pytesseract>=0.3.9
-tesseract-ocr  # Requires system-level Tesseract installation (see notes below)
-
-# Other utilities
-io
